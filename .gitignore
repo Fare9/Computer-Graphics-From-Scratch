@@ -39,3 +39,12 @@
 
 # debug information files
 *.dwo
+
+# avoid raylib library
+raylib*/
+
+# avoid any kind of cmake-build-debug
+cmake-*/
+
+# we use claude to generate comments avoid the folder
+.claude/
